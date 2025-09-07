@@ -10,7 +10,7 @@
 // require get_template_directory() . '/blocks/_accordeon/fields.php';
 // require get_template_directory() . '/blocks/_group/fields.php';
 // require get_template_directory() . '/blocks/_icon/fields.php';
-// require get_template_directory() . '/blocks/_image/fields.php';
+require get_template_directory() . '/blocks/_image/fields.php';
 // require get_template_directory() . '/blocks/_keyNumbers/fields.php';
 // require get_template_directory() . '/blocks/_label/fields.php';
 // require get_template_directory() . '/blocks/_logos/fields.php';
@@ -18,7 +18,7 @@
 // require get_template_directory() . '/blocks/_separator/fields.php';
 // require get_template_directory() . '/blocks/_testimonials/fields.php';
 // require get_template_directory() . '/blocks/_video/fields.php';
-// require get_template_directory() . '/blocks/_wysiwyg/fields.php';
+require get_template_directory() . '/blocks/_wysiwyg/fields.php';
 // require get_template_directory() . '/blocks/_column/fields.php';
 // require get_template_directory() . '/blocks/_list-content/fields.php';
 // require get_template_directory() . '/blocks/_jobs/fields.php';

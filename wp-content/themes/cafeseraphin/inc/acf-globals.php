@@ -37,3 +37,28 @@ function ACF_constuct_tabs($key, $blocks) {
   
   return $fields;
 }
+
+
+function ACF_icon_left() {
+  return get_template_directory_uri().'/public/icons/icon-align-left.svg';
+}
+
+function ACF_icon_right() {
+  return get_template_directory_uri().'/public/icons/icon-align-right.svg';
+}
+
+function ACF_icon_center() {
+  return get_template_directory_uri().'/public/icons/icon-align-center.svg';
+}
+
+function ACF_icon_top() {
+  return get_template_directory_uri().'/public/icons/icon-top.svg';
+}
+
+function ACF_icon_middle() {
+  return get_template_directory_uri().'/public/icons/icon-center.svg';
+}
+
+function ACF_icon_bottom() {
+  return get_template_directory_uri().'/public/icons/icon-bottom.svg';
+}

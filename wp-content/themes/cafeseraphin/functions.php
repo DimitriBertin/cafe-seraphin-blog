@@ -24,8 +24,9 @@ foreach (glob(get_template_directory() . '/inc/*.php') as $file) {
   require_once $file;
 }
 
-// foreach (glob(get_template_directory() . '/inc/fields/*.php') as $file) {
-//   require_once $file;
-// }
+foreach (glob(get_template_directory() . '/inc/fields/*.php') as $file) {
+  require_once $file;
+}
+
 
 // add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
