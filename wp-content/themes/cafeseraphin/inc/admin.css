@@ -1,0 +1,49 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 100,  /* Épaisseur minimale */
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+
+.custom-iconpicker-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  text-transform: none;
+  gap: 12px;
+  padding: 1rem;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  margin-top: 8px;
+  height: 120px;
+  overflow: scroll;
+}
+
+.custom-iconpicker-icon-item {
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .3s ease;
+  width: 32px; 
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-iconpicker-icon-item:hover {
+  background: #EEE;
+}
+
+.custom-iconpicker-icon-item.is-active {
+  background: #444;
+  color: white;
+}
+
+.custom-iconpicker .icon-loader {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

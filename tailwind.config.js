@@ -9,15 +9,15 @@ module.exports = {
     preflight: false,
   },
   content: [
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/*.{html,php}"),
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/template/*.{html,php}"),
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/blocks/*.{html,php}"),
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/blocks/**/*.{html,php}"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/*.{html,php}"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/template/*.{html,php}"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/blocks/*.{html,php}"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/blocks/**/*.{html,php}"),
     path.resolve(__dirname, "./api/*.{html,php,js}"),
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/template/*.{html,php,js}"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/template/*.{html,php,js}"),
     path.resolve(__dirname, "./src/globals/scripts/*.js"),
     path.resolve(__dirname, "./src/components/**/*.{html,php,js}"),
-    path.resolve(__dirname, "./wp-content/themes/atelierdesign/inc/ajax.php"),
+    path.resolve(__dirname, "./wp-content/themes/cafeseraphin/inc/ajax.php"),
   ],
   safelist: [
     {

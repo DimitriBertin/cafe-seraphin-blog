@@ -15,14 +15,15 @@ $theme_version = $theme->get('Version');
 
 // // REQUIRE GLOBALS INCLUDES FILES FOR WORDPRESS => 
 // require_once get_template_directory() . '/inc/globals/__useTokens.php';
-// foreach (glob(get_template_directory() . '/inc/globals/*.php') as $file) {
-//   require_once $file;
-// }
+foreach (glob(get_template_directory() . '/inc/globals/*.php') as $file) {
+  require_once $file;
+}
 
 // // REQUIRE INCLUDES FILES 
-// foreach (glob(get_template_directory() . '/inc/*.php') as $file) {
-//   require_once $file;
-// }
+foreach (glob(get_template_directory() . '/inc/*.php') as $file) {
+  require_once $file;
+}
+
 // foreach (glob(get_template_directory() . '/inc/fields/*.php') as $file) {
 //   require_once $file;
 // }
